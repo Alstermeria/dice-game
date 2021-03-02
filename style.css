@@ -168,3 +168,56 @@ main {
 .hidden {
   display: none;
 }
+@media only screen and (max-width: 767.98px) {
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 56%;
+  }
+  main {
+    position: relative;
+    width: 40rem;
+    height: 80rem;
+    display: block;
+  }
+  .player {
+    padding: 6rem;
+  }
+  .btn--new {
+    top: 0.1rem;
+  }
+  .btn--roll {
+    top: 36.3rem;
+  }
+  .btn--hold {
+    top: 42rem;
+  }
+  .dice {
+    left: 15%;
+    top: 14rem;
+    height: 8rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  html {
+    font-size: 43%;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-device-width: 900px) {
+  html {
+    font-size: 35.3%;
+  }
+}
+@media screen and (orientation: landscape) and (max-device-width: 667px) {
+}
+@media screen and (orientation: landscape) and (max-device-width: 575px) {
+}
